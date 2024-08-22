@@ -1,0 +1,58 @@
+[
+    {
+        "name": "CHOCOLATE MOUSSE",
+        "price": 15.00,
+        "text": "Rich and creamy chocolate mousse with a hint of vanilla.",
+        "image": "https://i.ibb.co/Hgb2GSM/nougat-3078581-640.jpg",
+        "type": "Dessert"
+    },
+    {
+        "name": "CHEESECAKE",
+        "price": 20.00,
+        "text": "Smooth and creamy cheesecake with a graham cracker crust.",
+        "image": "https://i.ibb.co/47DKdZZ/cheesecake-8305890-640.jpg",
+        "type": "Dessert"
+    },
+    {
+        "name": "PIZZA",
+        "price": 30.00,
+        "text": "Classic margherita pizza with fresh basil and mozzarella.",
+        "image": "https://i.ibb.co/pXhyrcH/pizza-6571632-640.jpg",
+        "type": "Fastfood"
+    },
+    {
+        "name": "FRIES",
+        "price": 10.00,
+        "text": "Crispy golden fries served with ketchup.",
+        "image": "https://i.ibb.co/HHkxy9D/french-fries-923687-640.jpg",
+        "type": "Fastfood"
+    },
+    {
+        "name": "CHICKEN BIRYANI",
+        "price": 40.00,
+        "text": "Fragrant basmati rice cooked with tender chicken and spices.",
+        "image": "https://i.ibb.co/x5FXdY8/biryani-8326234-640.jpg",
+        "type": "biryani"
+    },
+    {
+        "name": "MUTTON BIRYANI",
+        "price": 50.00,
+        "text": "Slow-cooked mutton biryani with aromatic spices and herbs.",
+        "image": "https://i.ibb.co/0qt7rSD/biryani-platter-7253751-640.jpg",
+        "type": "Biryani"
+    },
+    {
+        "name": "GRILLED SALMON",
+        "price": 550.00,
+        "text": "Juicy grilled salmon fillet with a lemon herb marinade.",
+        "image": "https://i.ibb.co/R7NWdCx/salmon-3819966-640.jpg",
+        "type": "Grill"
+    },
+    {
+        "name": "BBQ RIBS",
+        "price": 600.00,
+        "text": "Tender BBQ ribs glazed with a smoky sauce.",
+        "image": "https://i.ibb.co/t497rfT/steak-7423231-640.jpg",
+        "type": "Grill"
+    }
+]
