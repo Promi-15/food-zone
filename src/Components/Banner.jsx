@@ -2,16 +2,9 @@ import { useEffect } from "react";
 import { useState } from "react";
 import Food from "./Food";
 
-export default function Banner({ searchQuery }) {
+export default function Banner({ searchQuery, foods, setFoods }) {
  
-  const[filtered,setFiltered] =useState([])
-  const [foods, setFoods] = useState([])
-  useEffect(() => {
-    fetch('/public/food.json')
-      .then(res => res.json())
-      .then(data => setFoods(data))
-    
-  },[])
+
   const filteredFoods = foods.filter((food) =>
     food.name.toLowerCase().includes(searchQuery.toLowerCase())
   );

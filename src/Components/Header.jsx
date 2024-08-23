@@ -1,4 +1,4 @@
-export default function Header({setSearchQuery}) {
+export default function Header({setSearchQuery, setFoods, foods, handleClick}) {
   const handleInputKeyPress = (e) => {
     if (e.key === "Enter") {
       const finalValue = e.target.value;
@@ -25,10 +25,10 @@ export default function Header({setSearchQuery}) {
         </div>
       </div>
       <div className="flex justify-center my-10 gap-8">
-        <button className="btn bg-orange-600 border-none text-white">FastFood</button>
-        <button className="btn bg-orange-600 border-none text-white">Biriyani</button>
-        <button className="btn bg-orange-600 border-none text-white">Desert</button>
-        <button className="btn bg-orange-600 border-none text-white">Grill</button>
+        <button onClick={() => handleClick("Fastfood")} className="btn bg-orange-600 border-none text-white">FastFood</button>
+        <button onClick={() => handleClick("Biryani")} className="btn bg-orange-600 border-none text-white">Biriyani</button>
+        <button onClick={() => handleClick("Dessert")} className="btn bg-orange-600 border-none text-white">Desert</button>
+        <button onClick={() => handleClick("Grill")} className="btn bg-orange-600 border-none text-white">Grill</button>
       </div>
     </div>
   );
